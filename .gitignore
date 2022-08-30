@@ -1,0 +1,8 @@
+/vendor/
+composer.lock
+.php-cs-fixer.cache
+.idea
+*.DS_Store
+sftp-config.json
+.subsplit
+.php_cs.cache

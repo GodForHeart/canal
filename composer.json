@@ -1,0 +1,42 @@
+{
+    "name": "godforheart/canal",
+    "description": "canal同步工具",
+    "keywords": [
+        "canal",
+        "mysql",
+        "sync",
+        "同步"
+    ],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "GodForHeart",
+            "email": "godforheart@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=7.2",
+        "xingwenge/canal_php": "^1.0",
+        "php-amqplib/php-amqplib": "^3.2"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^8.5"
+    },
+    "autoload": {
+        "psr-4": {
+            "Godforheart\\Canal\\": "src/"
+        },
+        "files": [
+            "src/Kernel/Support/helpers.php"
+        ]
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Godforheart\\Canal\\": "tests/"
+        },
+        "files": [
+            "src/Kernel/Support/helpers.php"
+        ]
+    },
+    "minimum-stability": "dev"
+}
